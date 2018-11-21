@@ -2,6 +2,31 @@
 nav {background-color: navy;}
 
 /*dropdown*/
+
+/*.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+.mydropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.mydropdown-content {
+    display: none;
+    position: absolute;
+   
+}
+
+.mydropdown-content a {
+    color: black;
+  
+    display: block;
+}
+
+.children:hover .mydropdown-content {display: block;}
+
 /*end dropdwon*/
 
 
@@ -13,11 +38,23 @@ nav {background-color: navy;}
 }
 
 
-/* .carousel img {width: 50%; height: auto;} 
 
-*/
+/*Logo floats above carousel */
+.col-12 {
+	z-index: 100;
+}
 
 
+/*.carousel img {width: 50%; height: auto;} */
+.carousel {position: relative;
+margin-top: -100px;
+z-index: 1;}
+
+
+@media (max-width: 900px) { 
+	#wolf, #chatterbox, #family {margin-bottom: 20px; }
+
+}
 
 
 
@@ -41,8 +78,4 @@ footer img{max-width: 100%;}
   height:300px ;
   width: 450px ;
   background-color: aquamarine;
-}
-
-p {
-  color: black;
 }
