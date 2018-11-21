@@ -1,0 +1,22 @@
+nav {background-color: navy;}
+
+#mission {
+  background-color: yellow;
+  height: 90px}
+
+#packages {background-color: green;}
+
+#wolf {background-color: red;}
+
+#Chatterbox {background-color: purple;}
+#Family {background-color: orange;}
+
+
+/* .carousel img {width: 50%; height: auto;} */
+
+footer {background-color: navy;}
+footer p {color: white;}
+/*
+.facebook button{background-color: navy;}
+
+.Instagram button{background-color: red;} */
