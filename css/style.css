@@ -6,23 +6,31 @@ nav {background-color: navy;}
 
 
 #mission {
-  background-color: yellow;
+  
   height: 90px;
   display: inline;
   text-align: center;
 }
 
-#packages {background-color: green;}
-
-
-#Chatterbox {background-color: purple;}
-#Family {background-color: orange;}
-
 
 /* .carousel img {width: 50%; height: auto;} */
 
+
+
+
+
+
+
+/*Modal*/
+.modal-body p {color: black;}
+
+/*Footer*/
 footer {background-color: navy;}
-footer p {color: white;}
+footer a, p{color: white;}
+
+/*Accordion*/
+.card p {color: black;}
+
 /*
 .facebook button{background-color: navy;}
 
