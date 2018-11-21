@@ -1,12 +1,16 @@
 
-nav {background-color: navy;}
+nav {background-color: navy;
+font-size: 20px;}
 
+
+/*Media query for smartphone */
+
+@media (max-width: 900px) { 
+	#wolf, #chatterbox, #family {margin-bottom: 20px; }
+
+}
 /*dropdown*/
 
-/*.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-}*/
 
 .mydropdown {
     position: relative;
@@ -16,16 +20,17 @@ nav {background-color: navy;}
 .mydropdown-content {
     display: none;
     position: absolute;
+    color: white;
    
 }
 
 .mydropdown-content a {
-    color: black;
+   color: white;
+ display: block;}
   
-    display: block;
-}
+  
 
-.children:hover .mydropdown-content {display: block;}
+.children:hover .mydropdown-content {display: block; background-color: purple; }
 
 /*end dropdwon*/
 
@@ -51,11 +56,8 @@ margin-top: -100px;
 z-index: 1;}
 
 
-@media (max-width: 900px) { 
-	#wolf, #chatterbox, #family {margin-bottom: 20px; }
 
-}
-
+.card-img-top {height:160px;}
 
 
 /*Modal*/
@@ -70,6 +72,11 @@ footer img{max-width: 100%;}
 /*Accordion*/
 .card p {color: black;}
 
+
+
+/*
+FAQ*/
+.accordion h4 {font-size: 18px;}
 /*
 .facebook button{background-color: navy;}
 
@@ -77,5 +84,5 @@ footer img{max-width: 100%;}
 .text img{
   height:300px ;
   width: 450px ;
-  background-color: aquamarine;
+  background-color: aquamarine;*/
 }
