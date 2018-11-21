@@ -3,11 +3,13 @@ nav {background-color: navy;}
 
 #mission {
   background-color: yellow;
-  height: 90px}
+  height: 90px;
+  display: inline;
+  text-align: center;
+}
 
 #packages {background-color: green;}
 
-#wolf {background-color: red;}
 
 #Chatterbox {background-color: purple;}
 #Family {background-color: orange;}
