@@ -1,7 +1,37 @@
 
-nav {background-color: navy;}
+nav {background-color: navy;
+font-size: 20px;}
 
+
+/*Media query for smartphone */
+
+@media (max-width: 900px) { 
+	#wolf, #chatterbox, #family {margin-bottom: 20px; }
+
+}
 /*dropdown*/
+
+
+.mydropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.mydropdown-content {
+    display: none;
+    position: absolute;
+    color: white;
+   
+}
+
+.mydropdown-content a {
+   color: white;
+ display: block;}
+  
+  
+
+.children:hover .mydropdown-content {display: block; background-color: purple; }
+
 /*end dropdwon*/
 
 
@@ -13,12 +43,21 @@ nav {background-color: navy;}
 }
 
 
-/* .carousel img {width: 50%; height: auto;} 
 
-*/
+/*Logo floats above carousel */
+.col-12 {
+	z-index: 100;
+}
+
+
+/*.carousel img {width: 50%; height: auto;} */
+.carousel {position: relative;
+margin-top: -100px;
+z-index: 1;}
 
 
 
+.card-img-top {height:160px;}
 
 
 /*Modal*/
@@ -33,6 +72,11 @@ footer img{max-width: 100%;}
 /*Accordion*/
 .card p {color: black;}
 
+
+
+/*
+FAQ*/
+.accordion h4 {font-size: 18px;}
 /*
 .facebook button{background-color: navy;}
 
@@ -40,8 +84,9 @@ footer img{max-width: 100%;}
 .text img{
   height:300px ;
   width: 450px ;
-  background-color: aquamarine;
+  background-color: aquamarine;*/
 }
+<<<<<<< HEAD
 
 p {
   color: black;
@@ -58,3 +103,5 @@ p {
   border: 5px solid green;
 
 }
+=======
+>>>>>>> a4d03c34aa0a2f10af9082224ed3d3031eb08e58
