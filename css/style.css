@@ -13,9 +13,9 @@ nav {background-color: navy;}
 }
 
 
-/* .carousel img {width: 50%; height: auto;} */
+/* .carousel img {width: 50%; height: auto;} 
 
-
+*/
 
 
 
@@ -23,10 +23,12 @@ nav {background-color: navy;}
 
 /*Modal*/
 .modal-body p {color: black;}
+.modal-footer a {color: white;}
 
 /*Footer*/
 footer {background-color: navy;}
 footer a, p{color: white;}
+footer img{max-width: 100%;}
 
 /*Accordion*/
 .card p {color: black;}
