@@ -1,9 +1,12 @@
 /*Media query for smartphone */
 
 @media (max-width: 900px) { 
-  #wolf, #chatterbox, #family {margin-bottom: 20px; }
+  #wolf, #chatterbox, #family {margin-bottom: 20px; }}
 
-
+/*
+@media (max-width: 900px) {
+.carousel {width: 50%; height: auto;}}
+*/
 
 nav {background-color: navy;
 font-size: 20px;}
@@ -72,7 +75,7 @@ z-index: 1;}*/
 .modal-body p {color: black;}
 .modal-footer a {color: white;}
 
-.modal-content {width: 70%;}
+.modal-dialog .modal-content {width: 70%;}
 /*Footer*/
 footer a, p{color: white;}
 footer img{max-width: 100%;}
@@ -92,17 +95,29 @@ FAQ*/
 /*Chatterbox*/
 
 .box1 p {color: black;}
-/*
 
 
 
+/*Lonewolf.html*/
+
+/*#lonewolfplan */
+#lonewolf h1, h2 {font-family: 'Abril Fatface', cursive;}
+
+.Plan1, .Plan2, .Plan3, .Plan4 {border-style: solid; margin: 10px; border-color: navy;}
+
+.info {margin-top: 10px;}
+.info h4 {font-size: 40px;}
+.lonewolfplan .btn-outline-dark:hover {background-color: navy;}
+/*.card-body {padding: 0.5rem;}*/
 
 
+
+/*Footer*/
 
 
 .facebook button{background-color: navy;}
 
-.Instagram button{background-color: red;} */
+.Instagram button{background-color: red;} 
 .text img{
   height:300px ;
   width: 450px ;
