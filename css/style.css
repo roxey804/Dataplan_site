@@ -96,10 +96,14 @@ FAQ*/
 /*#lonewolfplan */
 #lonewolf h1, h2 {font-family: 'Abril Fatface', cursive;}
 
-.Plan1, .Plan2, .Plan3, .Plan4 {border-style: solid; margin: 10px; border-color: navy;}
+.lonewolfplan h3 {font-size: 24px;}
+.lonewolfplan button {padding: 2px; }
+.lonewolfplan .row {margin-top: 8px;}
 
-.info {margin-top: 10px;}
-.info h4 {font-size: 40px;}
+.lonewolfplan .col-lg-5 {border-style: solid;  border-color: navy;}
+/*
+.info {margin-top: 10px;}*/
+.info h4 {font-size: 35px;}
 .lonewolfplan img {max-width: 100%; }
 .lonewolfplan .btn-outline-dark:hover {background-color: navy;}
 /*.card-body {padding: 0.5rem;}*/
