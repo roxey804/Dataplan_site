@@ -1,8 +1,10 @@
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 })
+$('.collapse1').collapse()
 
 $('.collapse').click( (e)=> collapse());
+
 
 var total = 0 
 let newt = 0
