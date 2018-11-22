@@ -52,41 +52,8 @@ $("#myForm2").change(function(){
 
 function caltotal(){
   final = newt + total
-  $("#total").text(final)
-
+  $("#total").text(final);
 }
 
 
-
-// $("#1gb").click((event)=>{
-//   total =0;
-// total+=14 
-// $("#total").text("£14")
-// })
-
-// $("#6gb").click((event)=>{
-//   total = 0;
-//   total+=18
-//   $("#total").text("£18")
-// })
-
-//   $("#10gb").click((event)=>{
-//     total+=20
-//     $("#total").text("£20")
-//     total =0;
-//     })
-
-    
-//     $("#20gb").click((event)=>{
-//       total =0;
-//       total+=30
-//       $("#total").text("£30")
-//       })
-
-
-//       $("#3").click((event)=>{
-//       addtotal()
-//         $("#total").text(finalV)
-//         })
-
-//   function addtotal(){
+console.log("hello1")
