@@ -8,6 +8,7 @@
 .carousel {width: 50%; height: auto;}}
 */
 
+
 nav {background-color: navy;
 font-size: 20px;}
 
@@ -92,11 +93,6 @@ FAQ*/
 #accordionExample h4 {font-family: 'Abril Fatface', cursive;
 }
 
-/*Chatterbox*/
-
-.box1 p {color: black;}
-
-
 
 /*Lonewolf.html*/
 
@@ -107,11 +103,19 @@ FAQ*/
 
 .info {margin-top: 10px;}
 .info h4 {font-size: 40px;}
+.lonewolfplan img {max-width: 100%; }
 .lonewolfplan .btn-outline-dark:hover {background-color: navy;}
 /*.card-body {padding: 0.5rem;}*/
 
+/*Chatterbox*/
 
 
+.box1 p {color: black;}
+.box1, .box2 {border-style: solid; margin: 10px;padding: 5px;}
+
+
+.chatterboxplan h1,h2 {font-family: 'Abril Fatface', cursive;}
+#myForm1, #myForm2 p {font-weight:bold; padding-left: 7px; padding-right: 7px;}
 /*Footer*/
 
 
