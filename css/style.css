@@ -65,7 +65,6 @@ z-index: 1;}*/
 .modal-footer a {color: white;}
 
 /*Footer*/
-footer {background-color: navy;}
 footer a, p{color: white;}
 footer img{max-width: 100%;}
 
@@ -97,24 +96,9 @@ FAQ*/
 .text img{
   height:300px ;
   width: 450px ;
-  background-color: aquamarine;*/
+  background-color: aquamarine;
 }
-<<<<<<< HEAD
 
-p {
+* p{
   color: black;
 }
-.box1{
-  height: 1000px;
-  width: 1000px;
-  border: 5px solid red;
-
-}
-.box2{
-  height: 1000px;
-  width: 1000px;
-  border: 5px solid green;
-
-}
-=======
->>>>>>> a4d03c34aa0a2f10af9082224ed3d3031eb08e58

@@ -4,14 +4,26 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Family</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
   <!-- nav bar -->
   <nav>
+    <ul class="nav">
+      <li class="nav-item">
+         <a class="nav-link " href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Plans</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+    </ul>
+
        <div class="mydropdown">
         <ul class="nav ">
           <li class="nav-item ">
@@ -31,7 +43,18 @@
 
         </ul>
       </div>
-  </nav> <!--Close navbar-->
+
+
+  <div class="container text-center">
+      <div class="row">
+          <div class="col-12">
+          <h2>Family plan</h2>
+           <h3> Chatterbox: Sim card with data, minutes and texts</h3>
+           </div>
+        </div>
+       <img src="https://www.freewordpressheaders.com/wp-content/gallery/cats-kittens/red-silver-egyptian-cats-header.jpg" height="190px">
+      </div>
+      <h5 class = "container">Welcome, to ensure you get th every best blah blah blah, make your plan</h5>
 
 
 <div class="container text-center">
@@ -154,26 +177,63 @@
   </div>
 </div>
 
+      <p>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Button with data-target
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div>
+        
 
-<div class="container"> 
-  <div class="row">
-    <div class="col-5">
-   <img src="images/Square250.png">
-     <!-- 15GB (£22.00)  -->
-       </div>
-    <div class="col-2">
+        
 
-       <div class="col-5">
-     <p> more text here 15GB (£22.00)  </p>
-      <p> more text here 15GB (£22.00)  </p>
-       <p> more text here 15GB (£22.00)  </p>
-       </div>
-<!-- 30GB (£27.00) -->
-    </div>
-  </div>
-</div>
+<!-- 
+  <div class ="container">
+      <div class ="row">
+        <div class = "col-6 box1">
+        <div>
+          <p>Choose GB per month:</p>
+          <form id="myForm1">
+          <label id= "1gb" class="radio-inline"><input type="radio" name="optradio" value="14" >1GB: <p>£14.00</p></label>
+          <label id ="6gb" class="radio-inline"><input type="radio" name="optradio" value="18" >6GB: <p>£18.00</p></label>
+          <label id ="10gb" class="radio-inline"><input type="radio" name="optradio" value="20" >10GB: <p>£20.00</p></label>
+          <label id ="20gb" class="radio-inline"><input type="radio" name="optradio" value="30" >20GB: <p>£30.00</p></label>
+            </form>
+          
+  
+        </div>
+        <div>
+          <p>Choose minutes per month:</p>
+          <form id = "myForm2">
+          <label id = "3" class="radio-inline"><input type="radio" name="optradio1" value="3"  >180 min <p> (+ £3.00)</p></label>
+          <label id = "5" class="radio-inline"><input type="radio" name="optradio1" value="5" >300 min  <p>(+ £5.00)</p></label>
+          <label id = "10" class="radio-inline"><input type="radio" name="optradio1" value="10" >600 min <p>(+ £10.00) </p></label>
+          <label id = "12" class="radio-inline"><input type="radio" name="optradio1" value="12"  >unilimited min  <p>(+ £12.00)/p></label>
+          </form>
+          </div>
+  
+        </div>
+        <div class= "col-6 box2 ">
+          <h3>Total: </h3>
+          <p><span id= "total"></span></p>
+          
+        </div>
+      </div>
+    </div> -->
+  
 
+  <!-- Family: Up to 5 sim cards with data and unlimited minutes and texts
 
+- Choose GB per month + number of sim cards: 
+  - 1GB - (1): £14.00, (2): £21.20, (3): £28.40, (4): £35.60, (5): £42.80
+  - 10GB - (1): £20.00, (2): £32.00, (3): £44.00, (4): £56.00, (5): £68.00
+  - 20GB - (1): £30.00, (2): £50.00, (3): £70.00, (4): £90.00, (5): £110.00
+  - 40GB - (1): £40.00, (2): £68.00, (3): £96.00, (4): £124.00, (5): £152.00
+- Pay monthly / annually -->
 
  <footer class="container">
   <div class="row">
@@ -200,13 +260,14 @@
 
 </footer>
 
-
-<script src="js/fun.js"></script>
-  
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/fun.js"></script>
+  </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-</body>
 </html>
