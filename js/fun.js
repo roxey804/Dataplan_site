@@ -1,7 +1,7 @@
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 })
-$('.collapse1').collapse()
+
 
 $('.collapse').click( (e)=> collapse());
 
@@ -16,6 +16,7 @@ $("#myForm1").change(function(){
    
   if ($('input[value = 14]').prop('checked')){
     total = 14;
+    console.log("hello")
   }
   else if ($('input[value = 18]').prop('checked')){
     total =18;
