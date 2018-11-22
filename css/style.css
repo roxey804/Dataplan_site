@@ -12,9 +12,6 @@
 nav {background-color: navy;
 font-size: 20px;}
 
-
-
-}
 /*dropdown*/
 
 
@@ -129,3 +126,10 @@ FAQ*/
   color: black;
 }
 
+.accordion {
+  border: 6px solid red;
+} 
+
+#monthly{
+  font-size: 20px;
+}
