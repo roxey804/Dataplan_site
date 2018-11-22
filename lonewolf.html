@@ -12,20 +12,25 @@
 <body>
   <!-- nav bar -->
   <nav>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link " href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">Plans</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Etc</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
+    <div class="mydropdown">
+        <ul class="nav ">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item children">
+            <a class="nav-link dropbtn" href="#">Plans</a>
+            <div class="mydropdown-content">
+             <!-- <li class="nav-item "> -->
+              <a href="Chatterbox.html">Chatterbox</a>
+              <a href="family.html">Family</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+
+        </ul>
+      </div>
   </nav> <!--Close navbar-->
 
 

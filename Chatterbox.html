@@ -12,17 +12,25 @@
 <body>
   <!-- nav bar -->
   <nav>
-    <ul class="nav">
-      <li class="nav-item">
-         <a class="nav-link active" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Plans</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-    </ul>
+    <div class="mydropdown">
+        <ul class="nav ">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item children">
+            <a class="nav-link dropbtn" href="#">Plans</a>
+            <div class="mydropdown-content">
+             <!-- <li class="nav-item "> -->
+              <a href="lonewolf.html">Lone Wolf</a>
+              <a href="family.html">Family</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+
+        </ul>
+      </div>
   </nav> <!--Close navbar-->
 
 
@@ -35,7 +43,7 @@
     </div>
    <img src="https://www.freewordpressheaders.com/wp-content/gallery/cats-kittens/red-silver-egyptian-cats-header.jpg" height="190px">
   </div>
-  <h5 class = "container">Welcome, to ensure you get th every best blah blah blah, make your plan</h5>
+  <h5 class = "container">Welcome, to ensure you get the best plan for you choose:</h5>
 
   <div class ="container">
     <div class ="row">
@@ -57,7 +65,7 @@
         <label id = "3" class="radio-inline"><input type="radio" name="optradio1" value="3"  >180 min <p> (+ £3.00)</p></label>
         <label id = "5" class="radio-inline"><input type="radio" name="optradio1" value="5" >300 min  <p>(+ £5.00)</p></label>
         <label id = "10" class="radio-inline"><input type="radio" name="optradio1" value="10" >600 min <p>(+ £10.00) </p></label>
-        <label id = "12" class="radio-inline"><input type="radio" name="optradio1" value="12"  >unilimited min  <p>(+ £12.00)/p></label>
+        <label id = "12" class="radio-inline"><input type="radio" name="optradio1" value="12"  >unlimited min  <p>(+ £12.00)/p></label>
         </form>
         </div>
 
@@ -69,6 +77,8 @@
       </div>
     </div>
   </div>
+
+  <!-- Footer -->
  <footer class="container">
   <div class="row">
     <div class="col-4">
@@ -92,7 +102,7 @@
 
   </div>
 
-</footer>
+</footer> <!-- end footer -->
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
