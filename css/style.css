@@ -98,15 +98,27 @@ FAQ*/
 
 .lonewolfplan h3 {font-size: 24px;}
 .lonewolfplan button {padding: 2px; }
-.lonewolfplan .row {margin-top: 8px;}
+.lonewolfplan .row {margin-bottom: 30px; }
 
 .lonewolfplan .col-lg-5 {border-style: solid;  border-color: navy;}
 /*
 .info {margin-top: 10px;}*/
 .info h4 {font-size: 35px;}
-.lonewolfplan img {max-width: 100%; }
+.lonewolfplan img {max-width: 100%; z-index: 1;}
 .lonewolfplan .btn-outline-dark:hover {background-color: navy;}
-/*.card-body {padding: 0.5rem;}*/
+
+/*Lonewolf plan headings*/
+
+.front h4 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+/*.card-body {padding: 0.5rem;}
 
 /*Chatterbox*/
 
