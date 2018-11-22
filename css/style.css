@@ -51,9 +51,9 @@ font-size: 20px;}
 
 
 /*.carousel img {width: 50%; height: auto;} */
-.carousel {position: relative;
-margin-top: -100px;
-z-index: 1;}
+.carousel {position: relative;}
+/*margin-top: -100px;
+z-index: 1;}*/
 
 
 
