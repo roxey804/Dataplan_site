@@ -1,12 +1,14 @@
+/*Media query for smartphone */
+
+@media (max-width: 900px) { 
+  #wolf, #chatterbox, #family {margin-bottom: 20px; }
+
+
 
 nav {background-color: navy;
 font-size: 20px;}
 
 
-/*Media query for smartphone */
-
-@media (max-width: 900px) { 
-	#wolf, #chatterbox, #family {margin-bottom: 20px; }
 
 }
 /*dropdown*/
@@ -34,6 +36,11 @@ font-size: 20px;}
 
 /*end dropdwon*/
 
+#heading h1 {font-family: 'Abril Fatface', cursive;
+font-size: 64px;}
+
+
+
 
 #mission {
   
@@ -41,13 +48,14 @@ font-size: 20px;}
   display: inline;
   text-align: center;
 }
+#mission h1 {font-family: 'Abril Fatface', cursive;
+font-size: 40px;}
 
+#Packages h1 {font-family: 'Abril Fatface', cursive;
+font-size: 40px;}
 
-
-/*Logo floats above carousel */
-.col-12 {
-	z-index: 100;
-}
+.card-body h4 {font-family: 'Abril Fatface', cursive;
+font-size: 30px;}
 
 
 /*.carousel img {width: 50%; height: auto;} */
@@ -64,6 +72,7 @@ z-index: 1;}*/
 .modal-body p {color: black;}
 .modal-footer a {color: white;}
 
+.modal-content {width: 70%;}
 /*Footer*/
 footer a, p{color: white;}
 footer img{max-width: 100%;}
@@ -77,7 +86,8 @@ footer img{max-width: 100%;}
 FAQ*/
 .accordion h4 {font-size: 18px;}
 
-
+#accordionExample h4 {font-family: 'Abril Fatface', cursive;
+}
 
 /*Chatterbox*/
 
@@ -102,3 +112,4 @@ FAQ*/
 * p{
   color: black;
 }
+
