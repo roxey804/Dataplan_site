@@ -65,7 +65,6 @@ z-index: 1;}
 .modal-footer a {color: white;}
 
 /*Footer*/
-footer {background-color: navy;}
 footer a, p{color: white;}
 footer img{max-width: 100%;}
 
@@ -77,7 +76,20 @@ footer img{max-width: 100%;}
 /*
 FAQ*/
 .accordion h4 {font-size: 18px;}
+
+
+
+/*Chatterbox*/
+
+.box1 p {color: black;}
 /*
+
+
+
+
+
+
+
 .facebook button{background-color: navy;}
 
 .Instagram button{background-color: red;} */
