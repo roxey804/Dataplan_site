@@ -46,6 +46,10 @@ FAQ*/
   font-family: 'Questrial', sans-serif;
 }
 
+#FQ h1 {color: black;}
+
+
+#FQ button h4 {color: black;}
 
 /*Lonewolf.html*/
 
@@ -78,13 +82,18 @@ h2 {
   background-color: rgb(219,173,0);
 }
 
-
 /* ////////////lonewolf-page///////// */
 
 .lonewolf_header{
   background-color: #f4c100;
   text-align: center;
-  padding: 50px;
+  padding: 120px;
+}
+.lonewolf_header h1{
+  padding-bottom: 5px;
+} 
+.lonewolf_header p {
+  font-size: 20px;
 }
 .lonewolfplan{
   padding: 30px;
@@ -196,6 +205,10 @@ h2 {
 
 /*Not for you*/
 #bottom h1 {font-family: 'Questrial', sans-serif;}
+
+
+#bottom .btn-primary {background-color: #ffce1d; border-color: black; color: black;}
+
 /*Footer */
 
 /* ////////////////*dropdown/////////////// */
