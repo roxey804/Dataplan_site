@@ -177,6 +177,7 @@ h2 {
   margin: 30px;
   text-align: center;
 }
+.card p {padding: 4px; margin: 4px;}
 
 
 /*Footer*/
@@ -245,7 +246,7 @@ h2 {
 #bottom h1 {font-family: 'Questrial', sans-serif;}
 
 
-#bottom .btn-primary {background-color: #ffce1d; border-color: black; color: black;  margin: 20px; font-weight: bold; font-size: 20px;}
+#bottom .btn-primary {background-color: #ffce1d; border-color: #ffce1d; color: black;  margin: 20px; font-weight: bold; font-size: 20px;}
 
 #bottom {margin-bottom: 35px;}
 
