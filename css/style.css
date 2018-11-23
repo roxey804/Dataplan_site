@@ -1,135 +1,244 @@
-/*Media query for smartphone */
-
-@media (max-width: 900px) { 
-  #wolf, #chatterbox, #family {margin-bottom: 20px; }}
-
-/*
-@media (max-width: 900px) {
-.carousel {width: 50%; height: auto;}}
-*/
-
-
-nav {background-color: navy;
-font-size: 20px;}
-
-/*dropdown*/
-
-
-.mydropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.mydropdown-content {
-    display: none;
-    position: absolute;
-    color: white;
-   
-}
-
-.mydropdown-content a {
-   color: white;
- display: block;}
-  
-  
-
-.children:hover .mydropdown-content {display: block; background-color: purple; }
-
-/*end dropdwon*/
-
-#heading h1 {font-family: 'Abril Fatface', cursive;
-font-size: 64px;}
-
-
-
-
-#mission {
-  
-  height: 90px;
-  display: inline;
-  text-align: center;
-}
-#mission h1 {font-family: 'Abril Fatface', cursive;
-font-size: 40px;}
-
-#Packages h1 {font-family: 'Abril Fatface', cursive;
-font-size: 40px;}
-
-.card-body h4 {font-family: 'Abril Fatface', cursive;
-font-size: 30px;}
-
 
 /*.carousel img {width: 50%; height: auto;} */
-.carousel {position: relative;}
-/*margin-top: -100px;
-z-index: 1;}*/
 
-
-
-.card-img-top {height:160px;}
+.card-img-top {
+  height: 160px;
+}
 
 
 /*Modal*/
-.modal-body p {color: black;}
-.modal-footer a {color: white;}
+.modal-body p {
+  color: black;
+}
 
-.modal-dialog .modal-content {width: 70%;}
+.modal-footer a {
+  color: white;
+}
+
+.modal-dialog .modal-content {
+  width: 70%;
+}
+
 /*Footer*/
-footer a, p{color: white;}
-footer img{max-width: 100%;}
+footer a,
+p {
+  color: white;
+}
+
+footer img {
+  max-width: 100%;
+}
 
 /*Accordion*/
-.card p {color: black;}
+.card p {
+  color: black;
+}
 
 
 
 /*
 FAQ*/
-.accordion h4 {font-size: 18px;}
+.accordion h4 {
+  font-size: 18px;
+}
 
-#accordionExample h4 {font-family: 'Abril Fatface', cursive;
+#accordionExample h4 {
+  font-family: 'Questrial', sans-serif;
 }
 
 
 /*Lonewolf.html*/
 
 /*#lonewolfplan */
-#lonewolf h1, h2 {font-family: 'Abril Fatface', cursive;}
+#lonewolf h1,
+h2 {
+  font-family: 'Abril Fatface', cursive;
+}
 
-.Plan1, .Plan2, .Plan3, .Plan4 {border-style: solid; margin: 10px; border-color: navy;}
+.Plan1,
+.Plan2,
+.Plan3,
+.Plan4 {
+  border-style: solid;
+  margin: 10px;
+  border-color: navy;
+}
 
-.info {margin-top: 10px;}
-.info h4 {font-size: 40px;}
-.lonewolfplan img {max-width: 100%; }
-.lonewolfplan .btn-outline-dark:hover {background-color: navy;}
+.info {
+  margin-top: 10px;
+}
+
+.info h4 {
+  font-size: 40px;
+}
+
+.lonewolfplan img {
+  max-width: 100%;
+}
+
+.lonewolfplan .btn-outline-dark:hover {
+  background-color: navy;
+}
+
 /*.card-body {padding: 0.5rem;}*/
 
 /*Chatterbox*/
 
 
-.box1 p {color: black;}
-.box1, .box2 {border-style: solid; margin: 10px;padding: 5px;}
-
-
-.chatterboxplan h1,h2 {font-family: 'Abril Fatface', cursive;}
-#myForm1, #myForm2 p {font-weight:bold; padding-left: 7px; padding-right: 7px;}
-/*Footer*/
-
-
-.facebook button{background-color: navy;}
-
-.Instagram button{background-color: red;} 
-
-
-
-* p{
+.box1 p {
   color: black;
 }
 
-.accordion {
-  border: 6px solid red;
-} 
+.box1,
+.box2 {
+  border-style: solid;
+  margin: 10px;
+  padding: 5px;
+}
 
-#monthly{
+
+.chatterboxplan h1,
+h2 {
+  font-family: 'Questrial', sans-serif;
+}
+
+#myForm1,
+#myForm2 p {
+  font-weight: bold;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+/*Footer*/
+
+
+.facebook button {
+  background-color: navy;
+}
+
+.Instagram button {
+  background-color: red;
+}
+
+
+
+* p {
+  color: black;
+}
+
+
+
+#monthly {
   font-size: 20px;
+}
+
+
+/* **********************************CSS FOR INDEX************ */
+
+
+
+/* ///////////////////* Carousel images  /////////// */
+.carousel_images img {
+  width: 1000px;
+  height: 700px;
+  object-fit: cover;
+  background-color:rgba(0, 0, 0, 0.2);
+
+}
+
+.carousel-caption{
+  margin-bottom: 280px;
+  padding: 2px 5px;
+  border: 8px solid white;
+
+}
+
+
+
+/* ////////////////*dropdown/////////////// */
+
+.mydropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.mydropdown-content {
+  display: none;
+  position: absolute;
+  color: white;
+
+}
+
+.mydropdown-content a {
+  color: white;
+  display: block;
+}
+
+
+
+.children:hover .mydropdown-content {
+  display: block;
+  background-color: purple;
+}
+
+
+#heading h1 {
+  font-size: 64px;
+}
+
+
+
+/* ///////////////F&Q/////////////////////////// */
+
+
+
+.card-body h4 {
+  font-size: 30px;
+}
+
+
+
+/*Media query for smartphone */
+
+@media (max-width: 900px) {
+
+  #wolf,
+  #chatterbox,
+  #family {
+    margin-bottom: 20px;
+  }
+}
+
+/*
+@media (max-width: 900px) {
+.carousel {width: 50%; height: auto;}}
+*/
+#mission {
+  background-color: black;
+  color: white;
+  height: 380px;
+  padding-top:100px;
+  font-family: 'Questrial', sans-serif;
+}
+#Packages{
+  font-size: 40px;
+  padding-left: 250px;
+  margin:30px;
+  text-align: left;
+
+}
+
+/* ////model/// */
+.modal-body1 {
+  max-height: 1000px;
+}
+
+#FQ{
+  margin: 100px;
+  font-family: 'Questrial', sans-serif;
+
+}
+#footer{
+  background-color: black;
+  color: white;
 }
