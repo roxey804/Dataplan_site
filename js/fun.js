@@ -231,7 +231,3 @@ $("#myForm7").change(function(){
 
 });
 
-function caltotal1(){
-  $("#total1").text("total");
-  return total 
-}
