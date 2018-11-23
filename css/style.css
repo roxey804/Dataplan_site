@@ -174,7 +174,7 @@ h2 {
 
 
 /*Not for you*/
-#bottom h1 {font-family: 'Abril Fatface', cursive;}
+#bottom h1 {font-family: 'Questrial', sans-serif;}
 /*Footer */
 
 /* ////////////////*dropdown/////////////// */
@@ -192,7 +192,7 @@ h2 {
 }
 
 .mydropdown-content a {
-  color: white;
+  color: black;
   display: block;
 }
 
@@ -201,6 +201,7 @@ h2 {
 .children:hover .mydropdown-content {
   display: block;
   background-color: #ffce1d;
+  padding: 14px 14px;
 }
 
 
