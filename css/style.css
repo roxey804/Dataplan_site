@@ -59,9 +59,7 @@ h2 {
 .Plan2,
 .Plan3,
 .Plan4 {
-  border-style: solid;
   margin: 10px;
-  border-color: navy;
 }
 
 .info {
@@ -77,10 +75,31 @@ h2 {
 }
 
 .lonewolfplan .btn-outline-dark:hover {
-  background-color: navy;
+  background-color: rgb(219,173,0);
 }
 
-.
+
+/* ////////////lonewolf-page///////// */
+
+.lonewolf_header{
+  background-color: #f4c100;
+  text-align: center;
+  padding: 50px;
+}
+.lonewolfplan{
+  padding: 30px;
+
+}
+.lonewolfplan img {
+  border-radius: 60%
+
+}
+
+
+.Plan2,
+.Plan4 {
+  background-color: #f4c100;
+}
 
 /*.card-body {padding: 0.5rem;}*/
 
