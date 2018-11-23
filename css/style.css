@@ -229,7 +229,9 @@ h2 {
 #bottom h1 {font-family: 'Questrial', sans-serif;}
 
 
-#bottom .btn-primary {background-color: #ffce1d; border-color: black; color: black;}
+#bottom .btn-primary {background-color: #ffce1d; border-color: black; color: black;  margin: 20px; font-weight: bold; font-size: 20px;}
+
+#bottom {margin-bottom: 35px;}
 
 /*Footer */
 
