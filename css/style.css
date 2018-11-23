@@ -136,15 +136,28 @@ h2 {
 /* **********************************CSS FOR INDEX************ */
 
 
-
 /* ///////////////////* Carousel images  /////////// */
 .carousel_images img {
   width: 1000px;
   height: 700px;
   object-fit: cover;
   background-color:rgba(0, 0, 0, 0.2);
-
 }
+
+/* /
+.lonewolfplan h3 {font-size: 24px;}
+.lonewolfplan button {padding: 2px; }
+.lonewolfplan .row {margin-bottom: 30px; }
+
+.lonewolfplan .col-lg-5 {border-style: solid;  border-color: navy;}
+/*
+.info {margin-top: 10px;}
+.info h4 {font-size: 35px;}
+.lonewolfplan img {max-width: 100%; z-index: 1;}
+.lonewolfplan .btn-outline-dark:hover {background-color: navy;}
+
+/*Lonewolf plan headings*/
+
 
 .carousel-caption{
   margin-bottom: 280px;
@@ -154,6 +167,12 @@ h2 {
 }
 
 
+
+
+
+/*Not for you*/
+#bottom h1 {font-family: 'Abril Fatface', cursive;}
+/*Footer */
 
 /* ////////////////*dropdown/////////////// */
 
