@@ -1,4 +1,3 @@
-
 /*.carousel img {width: 50%; height: auto;} */
 
 .card-img-top {
@@ -46,10 +45,14 @@ FAQ*/
   font-family: 'Questrial', sans-serif;
 }
 
-#FQ h1 {color: black;}
+#FQ h1 {
+  color: black;
+}
 
 
-#FQ button h4 {color: black;}
+#FQ button h4 {
+  color: black;
+}
 
 /*Lonewolf.html*/
 
@@ -79,29 +82,32 @@ h2 {
 }
 
 .lonewolfplan .btn-outline-dark:hover {
-  background-color: rgb(219,173,0);
+  background-color: rgb(219, 173, 0);
 }
 
 /* ////////////lonewolf-page///////// */
 
-.lonewolf_header{
+.lonewolf_header {
   background-color: #f4c100;
   text-align: center;
   padding: 120px;
 }
-.lonewolf_header h1{
+
+.lonewolf_header h1 {
   padding-bottom: 5px;
-} 
+}
+
 .lonewolf_header p {
   font-size: 20px;
 }
-.lonewolfplan{
+
+.lonewolfplan {
   padding: 30px;
 
 }
+
 .lonewolfplan img {
   border-radius: 60%
-
 }
 
 
@@ -115,9 +121,11 @@ h2 {
   text-align: center;
   padding: 120px;
 }
-.chatterboxplan h1{
+
+.chatterboxplan h1 {
   padding-bottom: 5px;
 }
+
 .chatterboxplan p {
   font-size: 20px;
 }
@@ -129,16 +137,18 @@ h2 {
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
   margin-top: 30px;
-  
+
 }
+
 .box1 {
   margin: 100px;
   margin-left: 150px;
   margin-right: 0px;
 }
+
 .box2 {
   margin-top: 100px;
-  margin-left:0px;
+  margin-left: 0px;
 
 }
 
@@ -147,7 +157,9 @@ h2 {
   font-family: 'Questrial', sans-serif;
 }
 
-.chatterboxplan {background-color: #ffce1d;}
+.chatterboxplan {
+  background-color: #ffce1d;
+}
 
 #myForm1,
 #myForm2 p {
@@ -155,6 +167,7 @@ h2 {
   padding-left: 7px;
   padding-right: 7px;
 }
+
 /* ///////////////familyplan//////////////////////// */
 
 .familyplan {
@@ -163,24 +176,38 @@ h2 {
   padding: 120px;
 }
 
-.familyplan h1{
+.familyplan h1 {
   padding-bottom: 5px;
 }
+
 .familyplan p {
   font-size: 20px;
 }
+
 .familytitle {
   margin: 30px;
   text-align: center;
 }
-.card p {padding: 4px; margin: 4px;}
-.card h3 {padding: 14px; margin: 4px;text-align: center;}
-.card button {color: navy;}
+
+.card p {
+  padding: 4px;
+  margin: 4px;
+}
+
+.card h3 {
+  padding: 14px;
+  margin: 4px;
+  text-align: center;
+}
+
+.card button {
+  color: navy;
+}
 
 /*Footer*/
 
 
-#footer button{
+#footer button {
   background-color: navy;
 }
 
@@ -206,7 +233,7 @@ h2 {
   width: 1000px;
   height: 700px;
   object-fit: cover;
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   filter: grayscale(0.9)
 }
 
@@ -225,7 +252,7 @@ h2 {
 /*Lonewolf plan headings*/
 
 
-.carousel-caption{
+.carousel-caption {
   margin-bottom: 280px;
   padding: 2px 5px;
   border: 8px solid white;
@@ -237,12 +264,23 @@ h2 {
 
 
 /*Not for you*/
-#bottom h1 {font-family: 'Questrial', sans-serif;}
+#bottom h1 {
+  font-family: 'Questrial', sans-serif;
+}
 
 
-#bottom .btn-primary {background-color: #ffce1d; border-color: #ffce1d; color: black;  margin: 20px; font-weight: bold; font-size: 20px;}
+#bottom .btn-primary {
+  background-color: #ffce1d;
+  border-color: #ffce1d;
+  color: black;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
 
-#bottom {margin-bottom: 35px;}
+#bottom {
+  margin-bottom: 35px;
+}
 
 /*Footer */
 
@@ -310,15 +348,16 @@ h2 {
   background-color: #ffce1d;
   color: white;
   height: 380px;
-  padding-top:100px;
+  padding-top: 100px;
   font-family: 'Questrial', sans-serif;
 }
-#Packages{
- 
- /* text-align: center;*/
-  margin:30px;
-  
-  
+
+#Packages {
+
+  /* text-align: center;*/
+  margin: 30px;
+
+
 
 }
 
@@ -327,15 +366,25 @@ h2 {
   max-height: 1000px;
 }
 
-#FQ{
+#FQ {
   margin: 100px;
   font-family: 'Questrial', sans-serif;
 
 }
-#footer{
+
+#footer {
   background-color: #ffce1d;
- }
- #footer a {color: black;}
-.accordion h4{
+}
+
+#footer a {
+  color: black;
+}
+
+.accordion h4 {
   color: #ffc71de4;
+}
+
+/* ///////////////otherplan///// */
+#bottom {
+  margin: 90px;
 }
