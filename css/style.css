@@ -233,7 +233,8 @@ h2 {
 .carousel {width: 50%; height: auto;}}
 */
 #mission {
-  background-color: black;
+  background-color: #ffce1d;
+  background-color: ;
   color: white;
   height: 380px;
   padding-top:100px;
@@ -258,6 +259,6 @@ h2 {
 
 }
 #footer{
-  background-color: black;
+  background-color: #ffce1d;
   color: white;
 }
