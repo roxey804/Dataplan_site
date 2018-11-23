@@ -323,8 +323,8 @@ h2 {
 }
 #footer{
   background-color: #ffce1d;
-  color: white;
-}
+ }
+ #footer a {color: black;}
 .accordion h4{
   color: #ffc71de4;
 }
