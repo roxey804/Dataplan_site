@@ -84,7 +84,13 @@ h2 {
 .lonewolf_header{
   background-color: #f4c100;
   text-align: center;
-  padding: 50px;
+  padding: 120px;
+}
+.lonewolf_header h1{
+  padding-bottom: 5px;
+} 
+.lonewolf_header p {
+  font-size: 20px;
 }
 .lonewolfplan{
   padding: 30px;
