@@ -12,7 +12,7 @@
 }
 
 .modal-footer a {
-  color: white;
+  color: #f4c100;
 }
 
 .modal-dialog .modal-content {
@@ -52,7 +52,7 @@ FAQ*/
 /*#lonewolfplan */
 #lonewolf h1,
 h2 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Questrial', sans-serif;
 }
 
 .Plan1,
@@ -79,6 +79,8 @@ h2 {
 .lonewolfplan .btn-outline-dark:hover {
   background-color: navy;
 }
+
+.
 
 /*.card-body {padding: 0.5rem;}*/
 
