@@ -142,6 +142,7 @@ h2 {
   height: 700px;
   object-fit: cover;
   background-color:rgba(0, 0, 0, 0.2);
+  filter: grayscale(0.9)
 }
 
 /* /
@@ -259,6 +260,9 @@ h2 {
 
 }
 #footer{
-  background-color: #ffce1d;
+  background-color: #ffc71de4;
   color: white;
+}
+.accordion h4{
+  color: #ffc71de4;
 }
