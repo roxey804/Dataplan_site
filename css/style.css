@@ -175,18 +175,15 @@ h2 {
 }
 .card p {padding: 4px; margin: 4px;}
 .card h3 {padding: 14px; margin: 4px;text-align: center;}
-
+.card button {color: navy;}
 
 /*Footer*/
 
 
-.facebook button {
+#footer button{
   background-color: navy;
 }
 
-.Instagram button {
-  background-color: red;
-}
 
 
 
