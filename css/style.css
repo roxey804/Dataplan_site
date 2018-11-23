@@ -198,7 +198,7 @@ h2 {
 
 .children:hover .mydropdown-content {
   display: block;
-  background-color: purple;
+  background-color: #ffce1d;
 }
 
 
@@ -208,7 +208,7 @@ h2 {
 
 
 
-/* ///////////////F&Q/////////////////////////// */
+/* ///////////////FAQ/////////////////////////// */
 
 
 
@@ -260,7 +260,7 @@ h2 {
 
 }
 #footer{
-  background-color: #ffc71de4;
+  background-color: #ffce1d;
   color: white;
 }
 .accordion h4{
