@@ -46,6 +46,10 @@ FAQ*/
   font-family: 'Questrial', sans-serif;
 }
 
+#FQ h1 {color: black;}
+
+
+#FQ button h4 {color: black;}
 
 /*Lonewolf.html*/
 
@@ -77,7 +81,6 @@ h2 {
 .lonewolfplan .btn-outline-dark:hover {
   background-color: rgb(219,173,0);
 }
-
 
 /* ////////////lonewolf-page///////// */
 
@@ -224,6 +227,10 @@ h2 {
 
 /*Not for you*/
 #bottom h1 {font-family: 'Questrial', sans-serif;}
+
+
+#bottom .btn-primary {background-color: #ffce1d; border-color: black; color: black;}
+
 /*Footer */
 
 /* ////////////////*dropdown/////////////// */
