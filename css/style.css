@@ -178,6 +178,7 @@ h2 {
   text-align: center;
 }
 .card p {padding: 4px; margin: 4px;}
+.card h3 {padding: 14px; margin: 4px;text-align: center;}
 
 
 /*Footer*/
