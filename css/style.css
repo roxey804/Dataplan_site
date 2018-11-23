@@ -130,9 +130,6 @@ h2 {
 
 .box1,
 .box2 {
-  /* border-style: solid;
-  margin: 10px;
-  padding: 5px; */
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
   margin-top: 30px;
@@ -162,6 +159,25 @@ h2 {
   padding-left: 7px;
   padding-right: 7px;
 }
+/* ///////////////familyplan//////////////////////// */
+
+.familyplan {
+  background-color: #f4c100;
+  text-align: center;
+  padding: 120px;
+}
+
+.familyplan h1{
+  padding-bottom: 5px;
+}
+.familyplan p {
+  font-size: 20px;
+}
+.familytitle {
+  margin: 30px;
+  text-align: center;
+}
+
 
 /*Footer*/
 
