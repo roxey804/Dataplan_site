@@ -12,28 +12,37 @@
 </head>
 <body>
   <!-- nav bar -->
-  <nav>
-    <div class="mydropdown">
-        <ul class="nav ">
-          <li class="nav-item ">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item children">
-            <a class="nav-link dropbtn" href="#">Plans</a>
-            <div class="mydropdown-content">
-             <!-- <li class="nav-item "> -->
-              <a href="lonewolf.html">Lone Wolf</a>
-              <a href="family.html">Family</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top ">
+    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="https://pmcdeadline2.files.wordpress.com/2015/07/imgres.png?w=266" width="50" height="50" class="d-inline-block align-top"
+      alt="hello kitty">
+    <span class="navbar-brand d-flex flex-fill">Hello,Kitty</span>
+    <div class="navbar-collapse collapse " id="navbar">
+      <ul class="navbar-nav d-flex flex-fill nav justify-content-end">
+           <div class="mydropdown">
+         <ul class="nav ">
+           <li class="nav-item ">
+             <a class="nav-link active" href="index.html">Home</a>
+           </li>
+           <li class="nav-item children">
+             <a class="nav-link dropbtn" href="#">Plans</a>
+             <div class="mydropdown-content">
+              <!-- <li class="nav-item "> -->
+               <a href="lonewolf.html">Lone Wolf</a>
+               <a href="family.html">Family</a>
+             </div>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">About Us</a>
+           </li>
 
-        </ul>
-      </div>
+         </ul>
+       </div>
+    </div>
+  
   </nav> <!--Close navbar-->
-
 
 <div class="chatterboxplan">
   <div class="row">
@@ -83,9 +92,9 @@
   <div class="row">
     <div class="col-12">
       <h1>Not for you? Try our other plans:</h1>
-      <a href="lonewolf.html"><h1>Lone Wolf</h1></a>
- <a href="family.html"><h1>Family</h1></a>
+      <a class="btn btn-primary " href="family.html" role="button">Family</a>
 
+     <a class="btn btn-primary " href="lonewolf.html" role="button">Lone Wolf</a>
        </div>
      </div>
     </div> 
