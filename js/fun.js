@@ -1,7 +1,7 @@
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 })
-
+$('.collapse').collapse()
 
 $('.collapse').click( (e)=> collapse());
 
